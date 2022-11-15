@@ -1,0 +1,116 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Josefin Sans', sans-serif;
+	/* box-sizing: border-box; */
+    /* background: linear-gradient(#e66465, #9198e5); */
+    background-color: #333;
+}
+/* .hero{
+    height: 100vh;
+    width: 100%;
+    background-color: #333;
+} */
+nav{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    /* padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%; */
+    padding: 2rem;
+}
+.logo{
+    color: white;
+    font-size: 35px;
+	letter-spacing: 1px;
+	cursor: pointer;
+}
+span{
+    /* color: linear-gradient(#e66465, #9198e5); */
+    color: #f9004d;
+    /* justify-content: center; */
+    /* padding-left: 2%; */
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 1rem ;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+nav ul li a:hover{
+    color:#f9004d
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    padding-top: 8%;
+    color: black;
+    
+}
+.card:hover{
+    transform: scale(1.2);
+    /* background-color: rgb(75, 16, 75); */
+    /* background: linear-gradient(#e66465, #9198e5); */
+}
+.card{
+    /* background: #cac6c653; */
+    /* background-color: #cac6c653; */
+    /* width: 400px;
+    margin: 20px; */
+    width: 40em;
+    margin: 5em;
+    /* border-radius: 15px; */
+    transition: transform .4s;
+}
+.card-img{
+    /* background-color: aqua; */
+    /* height: 170px; */
+    /* margin-bottom: 10px; */
+    height: 12em;
+    background-size: cover;
+    /* border-radius: 15px 15px 0px 0px; */
+    border-radius: 2rem 2rem 0rem 0rem;
+
+}
+.car1{
+    background-image: url(honda_civic_si.jfif);
+    /* border: 50% 50% 0% 0%; */
+}
+.car2{
+    background-image: url(supra.jfif);
+}
+.car3{
+    background-image: url(GT-R.jfif);
+}
+.card p{
+    padding: 2rem;
+}
+.card a{
+    /* background-color: #333; */
+    text-decoration: none;
+    color: white;
+    /* padding: 15px 20px; */
+    /* display: block; */
+    /* margin: 20px 15px; */
+    /* justify-content: center; */
+}
+.copyright{
+    color: white;
+    /* text-align: center; */
+    /* display: block; */
+} 
+footer{
+    position: relative;
+    bottom: 0;
+    /* display: block; */
+}
+/* @media screen and (max-width:600px) {
+    
+} */
